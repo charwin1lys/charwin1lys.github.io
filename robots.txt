@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://charwin1lys.github.io/sitemap.xml 
