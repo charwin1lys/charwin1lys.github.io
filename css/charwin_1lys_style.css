@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Roboto Thin'), local('Roboto-Thin'), url(http://themes.googleusercontent.com/static/fonts/roboto/v10/G1l_KMKj5pga7ZKths0iTXYhjbSpvc47ee6xR_80Hnw.woff) format('woff');
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Roboto Light'), local('Roboto-Light'), url(http://themes.googleusercontent.com/static/fonts/roboto/v10/Fl4y0QdOxyyTHEGMXX8kcbO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto Regular'), local('Roboto-Regular'), url(http://themes.googleusercontent.com/static/fonts/roboto/v10/mUdRVCMHGKUBOACHGTH1g-vvDin1pK8aKteLpeZ5c0A.woff) format('woff');
+}
+
+body{
+    background-color: #1f2133;
+}
+
+#header_title{
+    font-family: Roboto;
+    font-weight: 100;
+    font-size: 50px;
+    text-indent: 20px;
+    letter-spacing: 20px;
+    color: #94fffb;
+    text-align: center;
+    line-height: 200px;
+}
+
+.button_green{
+    width: 160px;
+    height: 40px;
+    font-family: Roboto;
+    font-weight: 100;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: middle;
+    text-indent: 4px;
+    letter-spacing: 4px;
+    line-height: 40px;
+    color: #01e868;
+    border: 1px solid #01e868;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+.button_green:after{
+    content: 'Coming Soon';
+}
+.button_green:hover{
+    color: #54ff8e;
+    border-color: #54ff8e;
+    background-color: rgba(84, 255, 142, 0.20);
+}
